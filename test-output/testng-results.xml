@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-07T15:21:57Z" name="Weather SG" finished-at="2021-02-07T15:22:05Z" duration-ms="7727">
+    <groups>
+    </groups>
+    <test started-at="2021-02-07T15:21:57Z" name="Weather SG 4 Day Outlook" finished-at="2021-02-07T15:22:05Z" duration-ms="7727">
+      <class name="com.weathersg.haf.action.TestScriptTask2">
+        <test-method is-config="true" signature="PreTests()[pri:0, instance:com.weathersg.haf.action.TestScriptTask2@45a4b042]" started-at="2021-02-07T23:21:57Z" name="PreTests" finished-at="2021-02-07T23:21:57Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreTests -->
+        <test-method signature="HomeNav()[pri:0, instance:com.weathersg.haf.action.TestScriptTask2@45a4b042]" started-at="2021-02-07T23:21:57Z" name="HomeNav" finished-at="2021-02-07T23:22:02Z" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeNav -->
+        <test-method signature="FourDayOutlookAPIResponseCheck()[pri:0, instance:com.weathersg.haf.action.TestScriptTask2@45a4b042]" started-at="2021-02-07T23:22:02Z" name="FourDayOutlookAPIResponseCheck" finished-at="2021-02-07T23:22:04Z" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourDayOutlookAPIResponseCheck -->
+        <test-method signature="NavigationTo4DayOutlookScreenCheck()[pri:0, instance:com.weathersg.haf.action.TestScriptTask2@45a4b042]" started-at="2021-02-07T23:22:04Z" name="NavigationTo4DayOutlookScreenCheck" finished-at="2021-02-07T23:22:04Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigationTo4DayOutlookScreenCheck -->
+        <test-method signature="DayAfterTomorrowHighTempExtractionUI()[pri:0, instance:com.weathersg.haf.action.TestScriptTask2@45a4b042]" started-at="2021-02-07T23:22:04Z" name="DayAfterTomorrowHighTempExtractionUI" finished-at="2021-02-07T23:22:04Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DayAfterTomorrowHighTempExtractionUI -->
+        <test-method signature="DayAfterTomorrowLowTempExtractionUI()[pri:0, instance:com.weathersg.haf.action.TestScriptTask2@45a4b042]" started-at="2021-02-07T23:22:04Z" name="DayAfterTomorrowLowTempExtractionUI" finished-at="2021-02-07T23:22:04Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DayAfterTomorrowLowTempExtractionUI -->
+        <test-method signature="APIvsUIOvermorrowTemperaturesComparison()[pri:0, instance:com.weathersg.haf.action.TestScriptTask2@45a4b042]" started-at="2021-02-07T23:22:04Z" name="APIvsUIOvermorrowTemperaturesComparison" finished-at="2021-02-07T23:22:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIvsUIOvermorrowTemperaturesComparison -->
+        <test-method is-config="true" signature="PostExecution()[pri:0, instance:com.weathersg.haf.action.TestScriptTask2@45a4b042]" started-at="2021-02-07T23:22:04Z" name="PostExecution" finished-at="2021-02-07T23:22:05Z" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostExecution -->
+      </class> <!-- com.weathersg.haf.action.TestScriptTask2 -->
+    </test> <!-- Weather SG 4 Day Outlook -->
+  </suite> <!-- Weather SG -->
+</testng-results>

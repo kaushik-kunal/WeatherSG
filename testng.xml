@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Weather SG">
+<listeners>
+	<listener class-name="com.haf.ExtentReporter.ExtentReporterNG"/>
+</listeners>
+  <test name="Weather SG 4 Day Outlook">
+      <classes>
+      <class name="com.weathersg.haf.action.TestScriptTask2"/>
+      </classes>
+  </test>
+
+</suite> 
